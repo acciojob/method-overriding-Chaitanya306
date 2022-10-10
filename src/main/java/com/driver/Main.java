@@ -13,10 +13,11 @@ public class Main {
     }
     public static  void main(String[] args){
 
-        B obj =new B();
+        A obj =new B();
         String ans1=obj.meth();
         System.out.println(ans1);
-        String ans2=obj.meth();
+        B obj2=new B();
+        String ans2=obj2.meth();
         System.out.println(ans2);
     }
 }
